@@ -20,6 +20,7 @@
 		C5F5B0CA2205E95700A0F488 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F5B0C92205E95700A0F488 /* ExtensionDelegate.swift */; };
 		C5F5B0CC2205E95700A0F488 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F5B0CB2205E95700A0F488 /* NotificationController.swift */; };
 		C5F5B0CE2205E95800A0F488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F5B0CD2205E95800A0F488 /* Assets.xcassets */; };
+		C5F5B0DF2205EA6200A0F488 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F5B0DE2205EA6200A0F488 /* RowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		C5F5B0CD2205E95800A0F488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5F5B0CF2205E95800A0F488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F5B0D02205E95800A0F488 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C5F5B0DE2205EA6200A0F488 /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				C5F5B0CD2205E95800A0F488 /* Assets.xcassets */,
 				C5F5B0CF2205E95800A0F488 /* Info.plist */,
 				C5F5B0D02205E95800A0F488 /* PushNotificationPayload.apns */,
+				C5F5B0DE2205EA6200A0F488 /* RowController.swift */,
 			);
 			path = "table_view_watch WatchKit Extension";
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				C5F5B0CC2205E95700A0F488 /* NotificationController.swift in Sources */,
 				C5F5B0CA2205E95700A0F488 /* ExtensionDelegate.swift in Sources */,
+				C5F5B0DF2205EA6200A0F488 /* RowController.swift in Sources */,
 				C5F5B0C82205E95700A0F488 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
